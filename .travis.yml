@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 10
+
+before_script:
+  - npm install firebase-tools -g
+  - npm run build
+
+script:
+  - firebase deploy --only hosting --token "$FIREBASE_TOKEN"
