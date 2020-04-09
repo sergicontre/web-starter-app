@@ -17,6 +17,8 @@ class FavouriteView extends LitElement {
     render() {
         return html`
             <h1> My favourites items </h1>
+            <a href="/"> Home </a>
+            <a href="/users"> Users </a>
         `
     }
 }

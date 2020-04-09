@@ -8,7 +8,7 @@
   <base href="/">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
-
+  <link rel="manifest" href="/manifest.json">
   <style>
     html,
     body {
@@ -19,6 +19,13 @@
     }
   </style>
   <title>my-pwa</title>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js');
+      });
+    }
+  </script>
 </head>
 
 <body>
