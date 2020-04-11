@@ -1,7 +1,13 @@
 ## Web Starter App
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+[![Build Status](https://travis-ci.org/sergicontre/web-starter-app.svg?branch=master)](https://travis-ci.org/sergiontre/web-starter-app)
 
+## Installation
+```bash
+# requires node 10 & npm 6 or higher
+npm install
+```
 
 ## Scripts
 
