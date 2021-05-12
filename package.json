@@ -6,9 +6,9 @@
   },
   "devDependencies": {
     "@open-wc/building-rollup": "^0.21.0",
+    "es-dev-server": "^1.5.0",
     "rimraf": "^2.6.3",
     "rollup": "^1.15.4",
-    "es-dev-server": "^1.5.0",
     "rollup-plugin-cpy": "^2.0.1"
   },
   "name": "web-starter-app",
